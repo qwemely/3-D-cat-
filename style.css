@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background: #f0f0f0;
+  overflow: hidden;
+  
+}
+
+.scene {
+   perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+background-image:url(photo_2025-10-05_19-42-29.jpg);
+ background-size: cover;  
+
+}
+
+.cat-container {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.2s ease; 
+  
+}
+
+.cat {
+  width: 300px;
+}
+
+.eye {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background:black;
+  border-radius: 50%;
+  top: 170px;
+  z-index: 2;
+}
+.white-right{
+    background:#fffcf1;
+   position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 170px;
+  left:170px;
+  z-index: 1;
+}
+.white-left{
+    background:#fffcf1;
+   position: absolute;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  top: 170px;
+  left:50px;
+  z-index: 1;
+}
+
+.left-eye {
+  left: 55px;
+top:178px;
+}
+
+.right-eye {
+  right: 90px;
+}
